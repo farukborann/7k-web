@@ -27,7 +27,7 @@ export default function Footer() {
        {"Boran"}
       </div>
       <div className="w-full justify-center flex gap-2 ">
-       <a href="https://www.instagram.com/alperenyedik/" target="_blank">
+       <a href="https://www.instagram.com/faruk_borann/" target="_blank">
         <Image
          src={instagram}
          width={20}
@@ -37,7 +37,7 @@ export default function Footer() {
          alt="instagram logo"
         />
        </a>
-       <a href="https://github.com/Alperen7K" target="_blank">
+       <a href="https://github.com/farukborann" target="_blank">
         <Image
          src={github}
          width={20}
@@ -47,7 +47,7 @@ export default function Footer() {
          alt="github logo"
         />
        </a>
-       <a href="https://www.linkedin.com/in/alperen7k/" target="_blank">
+       <a href="https://www.linkedin.com/in/farukborann/" target="_blank">
         <Image
          src={linkedin}
          width={20}
@@ -63,7 +63,7 @@ export default function Footer() {
      <div className="flex flex-col items-center sm:items-start  gap-2 mt-4">
       <a
        className="flex items-center gap-2 cursor-pointer text-[15px] font-bold text-white"
-       href="tel:+90 546 434 60 08"
+       href="tel:+90 554 302 36 57"
       >
        <Image
         src={phone}
@@ -73,11 +73,11 @@ export default function Footer() {
         className={" w-[20px] "}
         alt="phone logo"
        />
-       +90 546 434 60 08
+       +90 554 302 36 57
       </a>
       <a
        className="flex items-center gap-2 cursor-pointer text-[15px] font-bold text-white"
-       href="mailto:mehmetalperenyedik@gmail.com"
+       href="mailto:omerfarukborann@gmail.com"
       >
        <Image
         src={mail}
@@ -87,7 +87,7 @@ export default function Footer() {
         className={" w-[20px] "}
         alt="mail logo"
        />
-       mehmetalperenyedik@gmail.com
+       omerfarukborann@gmail.com
       </a>
      </div>
     </div>

@@ -5,11 +5,11 @@ import { Montserrat } from "next/font/google";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
- title: "Mehmet Alperen YEDİK",
+ title: "Ömer Faruk BORAN",
  authors: [
-  { name: "Mehmet Alperen YEDİK", url: "https://github.com/Alperen7K" },
+  { name: "Ömer Faruk BORAN", url: "https://github.com/farukborann" },
  ],
- description: "owner Mehmet Alperen YEDİK",
+ description: "owner Ömer Faruk BORAN",
  icons: "./facion.ico",
 };
 

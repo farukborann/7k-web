@@ -143,7 +143,7 @@ const Footer = () => {
  return (
   <div className="mx-auto w-full px-4 py-2 space-y-2 border-t-[1px] border-solid border-white/70 ">
    <div className="w-full justify-center flex gap-x-3">
-    <a href="https://www.instagram.com/alperenyedik/" target="_blank">
+    <a href="https://www.instagram.com/faruk_borann/" target="_blank">
      <Image
       src={instagram}
       className={iconClass}
@@ -153,7 +153,7 @@ const Footer = () => {
       loading="lazy"
      />
     </a>
-    <a href="https://www.linkedin.com/in/alperen7k/" target="_blank">
+    <a href="https://www.linkedin.com/in/farukborann/" target="_blank">
      <Image
       src={linkedin}
       className={iconClass}
@@ -163,7 +163,7 @@ const Footer = () => {
       alt="linkedin logo"
      />
     </a>
-    <a href="https://github.com/Alperen7K" target="_blank">
+    <a href="https://github.com/farukborann" target="_blank">
      <Image
       src={github}
       className={iconClass}
@@ -177,7 +177,7 @@ const Footer = () => {
    <div className="flex flex-col items-center gap-2">
     <a
      className="flex items-center gap-2 cursor-pointer text-[10px] font-bold text-white"
-     href="tel:+90 546 434 60 08"
+     href="tel:+90 554 302 36 57"
     >
      <Image
       src={phone}
@@ -187,11 +187,11 @@ const Footer = () => {
       loading="lazy"
       alt="Phone logo"
      />
-     +90 546 434 60 08
+     +90 554 302 36 57
     </a>
     <a
      className="flex items-center gap-2 cursor-pointer text-[10px] font-bold text-white"
-     href="mailto:mehmetalperenyedik@gmail.com"
+     href="mailto:omerfarukborann@gmail.com"
     >
      <Image
       src={mail}
@@ -201,7 +201,7 @@ const Footer = () => {
       loading="lazy"
       height={15}
      />
-     mehmetalperenyedik@gmail.com
+     omerfarukborann@gmail.com
     </a>
    </div>
   </div>

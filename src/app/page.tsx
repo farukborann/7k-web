@@ -59,6 +59,12 @@ export default function Home() {
        Konya Technical University Computer Science
       </h1>
      </div>
+     <div className="w-full flex items-center justify-start gap-x-4">
+      <h2 className="text-[16px] opacity-80 text-nowrap">2017 / 2021 </h2> -
+      <h1 className={historyJobTitle}>
+       Mem Anatolian Private High School
+      </h1>
+     </div>
     </div>
     <div className="space-y-10">
      <Title title="Experience" />
