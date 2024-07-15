@@ -9,7 +9,7 @@ export const metadata: Metadata = {
  authors: [
   { name: "Ömer Faruk BORAN", url: "https://github.com/farukborann" },
  ],
- description: "owner Ömer Faruk BORAN",
+ description: "U Known what is this",
  icons: "./facion.ico",
 };
 
