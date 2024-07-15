@@ -24,7 +24,7 @@ export default function Footer() {
        }}
        className="text-[35px] hover:scale-[1.03] font-bold duration-300 cursor-pointer"
       >
-       {"7K's"}
+       {"Boran"}
       </div>
       <div className="w-full justify-center flex gap-2 ">
        <a href="https://www.instagram.com/alperenyedik/" target="_blank">

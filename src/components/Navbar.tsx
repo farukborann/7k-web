@@ -18,7 +18,7 @@ export default function Navbar() {
     <div className="w-[95vw] sm:w-[85vw] mx-auto h-full  rounded-b-full    flex items-center justify-between">
      <a href="/">
       <label className="text-[35px] hover:scale-[1.03] font-bold duration-300 cursor-pointer">
-       {"7K's"}
+       {"Boran"}
       </label>
      </a>
      <div className="sm:block hidden space-x-6">

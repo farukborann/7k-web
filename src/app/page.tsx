@@ -17,19 +17,19 @@ export default function Home() {
      alt="Landin img"
      width={1600}
      height={900}
-     className=" size-full object-[25%_0%] sm:object-top object-cover absolute inset-0 grayscale"
+     className=" size-full object-[75%_0%] sm:object-top object-cover absolute inset-0 grayscale"
      layout="right"
     />
     <div className="size-full inset-0 absolute landing-section flex flex-col justify-end pb-[40%] sm:pb-[15%] items-center z-50">
      <TypeAnimation
       sequence={[
-       "Hey! My name is",
+       "Hello, my name is",
        1000,
-       "Mehmet Alperen YEDİK",
+       "Ömer Faruk BORAN",
        1000,
-       "and I am a web developer",
+       "and I am a software developer.",
        1000,
-       "if you want to know more, scroll down.",
+       "you can find more about me below.",
        1000,
       ]}
       wrapper="h1"
@@ -44,27 +44,19 @@ export default function Home() {
      <Title title="About" />
      <div className=" space-y-4 text-justify *:text-[18px] *:opacity-80">
       <p className="">
-       Hello my name is <span className="font-bold">Mehmet Alperen YEDİK</span>.
-       I was born in Konya, and I decided to stay in my hometown for my
-       university education. My hunger for learning constantly motivates me to
-       improve.
-      </p>
-      <p className="text-[18px] text-justify opacity-80">
-       I began my journey of learning software through voluntary work at the
-       Kapsül Technology Platform. With diligence over time, I secured my first
-       job in my software career. Currently, I am actively engaged in my current
-       job, and alongside that, I continue to enhance my skills through
-       voluntary internship at Aivisiontech. Additionally, I am involved in
-       freelance projects to further diversify my experiences.
+      Hello, I am <span className="font-bold">Ömer Faruk Boran</span>.
+      I was born in Şanlıurfa and I am continuing my education in Konya. 
+      I work as a Full Stack Developer with experience in both front-end and back-end development.
+      Currently, I am in the process of learning about artificial intelligence.
       </p>
      </div>
     </div>
     <div className="space-y-10  ">
      <Title title="Education" />
      <div className="w-full flex items-center justify-start gap-x-4">
-      <h2 className="text-[16px] opacity-80 text-nowrap">2022 / 2026 </h2> -
+      <h2 className="text-[16px] opacity-80 text-nowrap">2021 / 2025 </h2> -
       <h1 className={historyJobTitle}>
-       Selcuk University Mechatronic Engineering
+       Konya Technical University Computer Science
       </h1>
      </div>
     </div>

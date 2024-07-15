@@ -8,7 +8,7 @@ a:hover {
 
 @media (min-width: 640px) {
  .landing-section {
-  background: radial-gradient(circle at 25% 50%, transparent, #000 75%);
+  background: radial-gradient(circle at 75% 50%, transparent, #000 75%);
  }
 }
 

@@ -68,7 +68,7 @@ const Header = ({ close }: { close: () => void }) => {
     }}
     className="text-[35px] hover:scale-[1.03] font-bold duration-300 cursor-pointer"
    >
-    {"7K's"}
+    {"-.-"}
    </h1>
    <Image
     onClick={close}
