@@ -112,7 +112,7 @@ const Body = ({ close }: { close: () => void }) => {
      close();
      navigator.push(navigate);
     }}
-    rel={content + "link"}
+    rel={content + " link"}
     className={`group flex items-center justify-between duration-300 text-white hover:text-white px-2 py-1 rounded-xl text-[32px] font-bold ${
      navigate && "cursor-pointer   hover:bg-white/15"
     }`}

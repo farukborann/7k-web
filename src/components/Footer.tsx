@@ -1,12 +1,14 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+
+import github from "../../public/icons/github.svg";
+import instagram from "../../public/icons/instagram.svg";
+import linkedin from "../../public/icons/linkedin.svg";
 import mail from "../../public/icons/mail.svg";
 import phone from "../../public/icons/phone.svg";
-import github from "../../public/icons/github.svg";
-import linkedin from "../../public/icons/linkedin.svg";
-import instagram from "../../public/icons/instagram.svg";
+
+"use client";
 
 export default function Footer() {
  const navigate = useRouter();
@@ -97,7 +99,7 @@ export default function Footer() {
     <a
      href="https://alperen7k.com.tr"
      target="_blank"
-     rel="noreferrer"
+     rel="developer site link"
      className="font-bold text-white pl-1"
     >
      {"7K's"}

@@ -6,7 +6,7 @@ export const UsedTechsCard = ({ img, name, link }: UsedTechsDataType) => {
   <a
    href={link}
    target="_blank"
-   rel="noreferrer"
+   rel={name + " link"}
    className="group [perspective:1000px] w-full aspect-square"
   >
    <div className="w-full h-full aspect-square relative rounded-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] ">
