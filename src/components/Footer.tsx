@@ -1,14 +1,12 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-
-import github from "../../public/icons/github.svg";
-import instagram from "../../public/icons/instagram.svg";
-import linkedin from "../../public/icons/linkedin.svg";
 import mail from "../../public/icons/mail.svg";
 import phone from "../../public/icons/phone.svg";
-
-"use client";
+import github from "../../public/icons/github.svg";
+import linkedin from "../../public/icons/linkedin.svg";
+import instagram from "../../public/icons/instagram.svg";
 
 export default function Footer() {
  const navigate = useRouter();
